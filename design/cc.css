@@ -1,5 +1,7 @@
 body{
-	cursor: url(http://www.w3schools.com/cssref/smiley.gif), url(http://www.w3schools.com/cssref/myBall.cur), auto; 
+	
+cursor: url(images/guitar-western.gif), progress;
+
 }
 
 a:hover{

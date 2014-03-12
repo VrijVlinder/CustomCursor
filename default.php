@@ -7,7 +7,7 @@
 $PluginInfo['CustomCursor'] = array(
    'Name'=>'CustomCursor',
    'Description' => "This plugin adds a custom cursor.",
-   'Version' => '1.0',
+   'Version' => '1.1',
    'MobileFriendly'=>TRUE,
    'Author' => "VrijVlinder",
    'AuthorEmail' => 'contact@vrijvlinder.com',
@@ -31,7 +31,7 @@ class CustomCursor_Plugin extends Gdn_Plugin {
 
 public function Base_Render_Before($Sender) {
 
-$Sender->AddCssFile('plugins/CustomCursor/cc.css');
+$Sender->AddCssFile('plugins/CustomCursor/design/cc.css');
 }
 
 
